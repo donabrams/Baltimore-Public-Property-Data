@@ -1,0 +1,52 @@
+"property": {
+	"owner" : {
+		"owners": [],
+		"use": [],
+		"mailingAddress": [],
+		"principalResidence": boolean,
+		"deedReference": []
+	},
+	"value" : {
+		"land": {
+			"baseValue":0,
+			"value":0,
+			"valueData":"",
+			"phaseInAssessments": [
+				{
+					"asOfDate":"",
+					"amount":0
+				}
+			]
+		},
+		"improvements",
+		"total",
+		"preferentialLand"
+	},
+	"transfer" : [
+		{
+			"seller":"",
+			"date":"",
+			"type":"",
+			"price":"",
+			"deed1":""
+			"deed2":""
+		}
+	],
+	"exemption" : {
+		"partialExempt" : {
+			"county": {				
+				"class": "",
+				"exemption": {
+					"amount" : "",
+					"date" : ""
+				}
+			},
+			"state",
+			"municipal"
+		},
+		"taxExempt": boolean,
+		"exemptClass": "",
+		"specialTaxRecapture": []
+	}
+}
+

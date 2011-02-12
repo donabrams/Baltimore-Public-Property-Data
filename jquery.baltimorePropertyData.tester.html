@@ -1,0 +1,30 @@
+<html>
+<head>
+<title>Baltimore City Public Property Information</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"</script>
+<script type="text/javascript" src="jquery.baltimorePropertyData.js"></script>
+<script type="text/javascript">
+$(function() {
+	$("#doAction").click(function(i) {
+		$.openBmore.getPropertyInfo(function(data) {
+				console.log("data:");
+				console.log(data);
+				$("#url").html(data.url);
+			},
+			$("#ward").val(),
+			$("#section").val(),
+			$("#block").val(),
+			$("#lot").val());
+	});
+});
+</script>
+</head>
+<body>
+	Ward: <input type="text" id="ward" value="25"><br/>
+	Section: <input type="text" id="section" value="08"><br/>
+	Block: <input type="text" id="block" value="7231"><br/>
+	Lot: <input type="text" id="lot" value="094"><br/>
+	<a href="#" id="doAction">look It up!</a><br/>
+	<span id="url"></span><br/>
+</body>
+</html>

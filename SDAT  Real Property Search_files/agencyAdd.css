@@ -1,0 +1,292 @@
+/********** AGENCY(Suplemental) CSS ***********/
+/*********** amends MDstandard.css ***********/
+
+
+
+
+/*********** PAGE COLOR (= banner color) ***********/
+#container {
+	background-color: #333366; /**** cw background-color: #666666;  change this from grey to your color *****/
+}
+
+/*********** YOUR TAB SUBJECTS ***********/
+/*** Customize, and name <body> id for active state  ***/
+
+body#home #t-home a{
+	background-position: 0% -48px;
+}
+body#home #t-home a span {
+	background-position: 100% -48px;
+	color: #000000;
+}
+
+body#subject1 #t-subject1 a{
+	background-position: 0% -48px;
+}
+body#subject1 #t-subject1 a span {
+	background-position: 100% -48px;
+	color: #000000;
+}
+
+body#subject2 #t-subject2 a{
+	background-position: 0% -48px;
+}
+body#subject2 #t-subject2 a span {
+	background-position: 100% -48px;
+	color: #000000;
+}
+
+body#subject3 #t-subject3 a{
+	background-position: 0% -48px;
+}
+body#subject3 #t-subject3 a span {
+	background-position: 100% -48px;
+	color: #000000;
+}
+
+body#subject4 #t-subject4 a{
+	background-position: 0% -48px;
+}
+body#subject4 #t-subject4 a span {
+	background-position: 100% -48px;
+	color: #000000;
+}
+
+
+/******* (See AgencyAddLight.css for possible additional modifications) *******/
+
+
+
+/****** RESI CAROL HERE ******/
+
+
+.textAreaDisclaimer
+{
+	font-family:Verdana, Sans-Serif;	
+	font-size:x-small;
+	font-weight:lighter;	 	
+	OVERFLOW: hidden; 
+	WIDTH: 506px; 
+	HEIGHT: 24px; 
+	BORDER-TOP-STYLE: none; 
+	BORDER-RIGHT-STYLE: none; 
+	BORDER-LEFT-STYLE: none; 
+	BORDER-BOTTOM-STYLE: none;
+	BACKGROUND-COLOR: transparent; 
+	TEXT-ALIGN: center;
+	 
+	 
+	 
+	 
+	}
+
+.textDisclaimer
+{
+	font-family:Verdana, Sans-Serif;	
+	 font-size:x-small;
+	 font-weight:lighter;	
+		}
+	
+.textAreaDisclaimer2
+{
+	font-family:Verdana, Sans-Serif;	
+	font-size:xx-small;
+	font-weight:lighter;	 	
+	OVERFLOW: hidden; 
+	WIDTH: 506px; 
+	HEIGHT: 24px; 
+	BORDER-TOP-STYLE: none; 
+	BORDER-RIGHT-STYLE: none; 
+	BORDER-LEFT-STYLE: none; 
+	BORDER-BOTTOM-STYLE: none;
+	BACKGROUND-COLOR: transparent; 
+	TEXT-ALIGN: center;
+	 
+	 
+	 
+	 
+	}
+	
+
+.textDisclaimer2
+{
+	font-family:Verdana, Sans-Serif;	
+	 font-size:xx-small;
+	 font-weight:lighter;	
+}	
+
+.results
+{
+	
+	font-size:12px;
+	width:95%;
+	text-align:left;
+	vertical-align:top;
+}
+
+.results a:visited
+{
+	color: #663300;
+}
+.results a
+{
+	color: #996600;
+}
+
+.detail
+{
+	padding-right: 20px;
+	padding-left: 2px;
+	font-size: 12px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+	text-align: left;
+}
+
+
+
+.detailbold
+{
+	border-top-width: 2px;
+	padding-right: 20px;
+	padding-left: 2px;
+	font-weight: bold;
+	border-left-width: 2px;
+	font-size: 12px;
+	border-left-color: black;
+	border-bottom-width: 2px;
+	border-bottom-color: black;
+	padding-bottom: 2px;
+	border-top-color: black;
+	padding-top: 2px;
+	text-align: left;
+	border-right-width: 2px;
+	border-right-color: black;
+}
+.detailbold a:visited{color:black;}
+.detailbold a{color:black;}
+.heading
+{
+	font-weight:bold;
+	text-align:left;
+}
+.pagination
+{
+	text-align:left;
+	width:95%;
+}
+	
+.help
+{
+	
+	width:95%;
+	text-align:left;
+}
+.genericyellowbox
+{
+	border-right: black 2px solid;
+	border-top: black 2px solid;
+	font-weight: bold;
+	border-left: black 2px solid;
+	width: 95%;
+	color: #ffffff;
+	border-bottom: black 2px solid;
+	background-color: #009999;
+	text-align: center;
+}	
+
+.details  /*07-11-07 LS Fix for definition links on details page*/
+{
+	
+	font-size:12px;
+	width:100%;
+	text-align:left;
+	vertical-align:top;
+	font-weight: bold;
+}
+
+.details a:visited{color:black;}
+.details a{color:black;}
+
+.yellowbox
+{
+	border-right: black 2px solid;
+	border-top: black 2px solid;
+	font-weight: bold;
+	font-size: 13px;
+	border-left: black 2px solid;
+	width: 95%;
+	color: #ffffff;
+	border-bottom: black 2px solid;
+	background-color: #009999;
+	/*text-align: center;*/
+}	
+.yellowbox a:visited
+{
+	color: silver;
+}
+.yellowbox a
+{
+	color: white;
+}
+
+.yellowdetail
+{
+	border-right: black 2px solid;
+	border-top: black 2px solid;
+	font-weight: bold;
+	font-size: 10px;
+	vertical-align: top;
+	border-left: black 2px solid;
+	width: 95%;
+	color: #ffffff;
+	border-bottom: black 2px solid;
+	background-color: #009999;
+	text-align: center;
+}
+
+.yellowboxleft
+{
+	font-weight: bold;
+	font-size: 13px;
+	width: 95%;
+	background-color: #009999;
+	text-align: left;
+}	
+
+.smallyellowbox
+{
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+	width:95%;
+	Border: solid 2px black;
+	BACKGROUND-COLOR: #009999; /* #ffff99    */
+	TEXT-ALIGN: center;
+}	
+	
+	.genericyellowbox
+{
+	
+	font-weight:bold;
+	text-align:center;
+	width:95%;
+	Border: solid 2px black;
+	BACKGROUND-COLOR: #009999; /* #ffff99    */
+	TEXT-ALIGN: center;
+}	
+	
+.box
+{
+	font-size:13px;
+	font-weight:normal;
+	text-align:left;
+	width:95%;
+}
+
+.offTab
+{
+	background-color:#009999; /* #ffff99    */
+	color:Black;
+	font-weight:bolder;
+}
